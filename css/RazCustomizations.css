@@ -1,6 +1,8 @@
 body
 {
 	background-image: url("../images/37 - bdjoieg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 p,div
@@ -52,4 +54,26 @@ a:hover
 {
 	position: relative;
 	top: 50px;
+}
+
+.list-group-item
+{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.vertLine
+{
+	border-right-color: rgba(255,255,255,0.4);
+	border-right-width: 5px;
+	border-right-style: dotted;
+	border-spacing: 5px;
+	
+}
+
+.row 
+{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
